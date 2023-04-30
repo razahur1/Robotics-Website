@@ -1,0 +1,103 @@
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px 100px 0px;
+}
+
+
+/* ______________Page title_______________ */
+
+.page-title {
+    background-image: url(../images/page-title.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 460px;
+    background-attachment: fixed;
+}
+.title-item{
+    text-align: center;
+    position: relative;        
+    margin-top: 15%;
+}
+.title-item h2 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.title-item ul{
+    margin: 0px;
+    padding: 0px;
+}
+.title-item ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.title-item ul li a {
+    display: inline-block;
+    color: #ffffff;
+}
+.title-item a:hover{
+    color: #fa5f0b;
+}
+.title-item ul li span {
+    display: inline-block;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+/* ____________ Service-Details ____________  */
+
+.white .ser-content{
+    width: 50%;
+    margin-left: 8%;
+    margin-right: 5%;
+}
+.white .ser-content1{
+    font-size: 16px;
+    width: 75%;
+    margin-left: 8%;
+}
+.ser-content h2{
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 30px;
+    color: #fa5f0b;
+}
+.white .ser-content p{
+    font-size: 16px;
+}
+.white .ser-image{
+    width: 25%;
+    margin-top: 2%;
+}
+.ser-image img{
+    border-radius: 50%;
+}
+.black{
+    background-color: #4c4848e3;
+}
+.black .ser-image{
+    width: 27%;
+    margin: 2% 3% 0% 8%;
+}
+.black .ser-content{
+    width: 45%;
+}
+.black .ser-content p{
+    font-size: 16px;
+    color: #fff;
+}
+.black .ser-content1{
+    font-size: 16px;
+    width: 75%;
+    margin-left: 8%;
+    color: #fff;
+}
+

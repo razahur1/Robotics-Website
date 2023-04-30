@@ -1,0 +1,92 @@
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px 100px 0px;
+}
+
+/* ______________Page title_______________ */
+
+.page-title {
+    background-image: url(../images/page-title.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 460px;
+    background-attachment: fixed;
+}
+.title-item{
+    text-align: center;
+    position: relative;        
+    margin-top: 15%;
+}
+.title-item h2 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.title-item ul{
+    margin: 0px;
+    padding: 0px;
+}
+.title-item ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.title-item ul li a {
+    display: inline-block;
+    color: #ffffff;
+}
+.title-item a:hover{
+    color: #fa5f0b;
+}
+.title-item ul li span {
+    display: inline-block;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+/* ____________ Project ____________  */
+
+.white .pro-content{
+    width: 45%;
+    margin-left: 8%;
+    margin-right: 5%;
+}
+.pro-content1{
+    font-size: 20px;
+    width: 75%;
+    margin-left: 8%;
+}
+.pro-content h2{
+    font-weight: 600;
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: #fa5f0b;
+}
+.white .pro-content p{
+    font-size: 20px;
+}
+.white .pro-image{
+    width: 40%;
+    margin-top: 2%;
+}
+.black{
+    background-color: #4c4848e3;
+}
+.black .pro-image{
+    width: 27%;
+    margin: 2% 3% 0% 8%;
+}
+.black .pro-content{
+    width: 45%;
+}
+.black .pro-content p{
+    font-size: 20px;
+    color: #fff;
+}

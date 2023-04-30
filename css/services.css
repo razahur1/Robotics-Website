@@ -1,0 +1,101 @@
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
+
+
+/* ______________Page title_______________ */
+
+.page-title {
+    background-image: url(../images/page-title.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 460px;
+    background-attachment: fixed;
+}
+.title-item{
+    text-align: center;
+    position: relative;        
+    margin-top: 15%;
+}
+.title-item h2 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.title-item ul{
+    margin: 0px;
+    padding: 0px;
+}
+.title-item ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.title-item ul li a {
+    display: inline-block;
+    color: #ffffff;
+}
+.title-item a:hover{
+    color: #fa5f0b;
+}
+.title-item ul li span {
+    display: inline-block;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+/* ____________ Services____________  */
+
+
+.service-area{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.service-item{
+    text-align: center;
+    padding: 30px 25px 28px;
+    border-radius: 10px;
+    background-color: #fff1f1;
+    margin: 30px 30px 0px 0px;
+    position: relative;
+    width: 28%;
+    color: #000;
+}
+.service-item:hover {
+    background-color:#061b2f;
+    color: #fff;
+}
+.service-item img {
+    position: absolute;
+    margin-left: -30%;
+    margin-top: -8%;
+    opacity: 0.50;
+}
+.service-item h3 {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.service-item p {
+    margin-bottom: 12px;
+}
+.service-item a{
+    display: inline-block;
+    color: #fa5f0b;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+}
+.service-item a:hover {
+    color: rgb(253, 253, 253);
+}
+

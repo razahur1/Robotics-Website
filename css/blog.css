@@ -1,0 +1,100 @@
+
+/* ______________Page title_______________ */
+
+.page-title {
+    background-image: url(../images/page-title.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 460px;
+    background-attachment: fixed;
+}
+.title-item{
+    text-align: center;
+    position: relative;        
+    margin-top: 15%;
+}
+.title-item h2 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.title-item ul{
+    margin: 0px;
+    padding: 0px;
+}
+.title-item ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.title-item ul li a {
+    display: inline-block;
+    color: #ffffff;
+}
+.title-item a:hover{
+    color: #fa5f0b;
+}
+.title-item ul li span {
+    display: inline-block;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+/*____________ Blog____________  */
+
+.section-title{
+    margin-bottom: 6%;
+    text-align: center;
+}
+.blog-area{
+    padding: 100px 0px 100px 0px;
+}
+.blog-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog-item {
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: 30px;
+}
+.blog-item span {
+    display: inline-block;
+    font-size: 13px;
+    color: #060f1e;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+}
+.blog-details{
+    background-color: #ffff;
+    margin-top: -20%;
+    position: relative;
+    padding: 10px 0px 20px 20px;
+}
+.blog-details:hover{
+    background-color: #f5ecea
+}
+.blog-details h3 {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #282828;
+    line-height: 25px;
+}
+.blog-link {
+    display: inline-block;
+    color: #fa5f0b;
+    font-weight: 500;
+    font-size: 14px;
+}
+.blog-link:hover{
+    color: rgb(9, 88, 236)
+}

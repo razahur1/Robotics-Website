@@ -1,0 +1,119 @@
+
+
+/* ______________Page title_______________ */
+
+.page-title {
+    background-image: url(../images/page-title.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 460px;
+    background-attachment: fixed;
+}
+.title-item{
+    text-align: center;
+    position: relative;        
+    margin-top: 15%;
+}
+.title-item h2 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.title-item ul{
+    margin: 0px;
+    padding: 0px;
+}
+.title-item ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.title-item ul li a {
+    display: inline-block;
+    color: #ffffff;
+}
+.title-item a:hover{
+    color: #fa5f0b;
+}
+.title-item ul li span {
+    display: inline-block;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+/* ____________ About____________  */
+
+.about-area {
+    padding-top: 165px;
+    padding-bottom: 155px;
+}
+.about-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row1{
+    max-width: 50%;
+}
+.about-area .section-title {
+    text-align: left;
+    margin-bottom: 30px;
+}
+.about-content p {
+    color: #282828;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.about-content ul {
+    padding: 0;
+    margin-bottom: 30px;
+}
+.about-content ul li {
+    list-style-type: none;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.about-content ul li i {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    color: #fa5f0b;
+    background-color: #f2f4fd;
+    margin-right: 8px;
+}
+.about-content ul li:hover i {
+    color: #ffffff;
+    background-color: #fa5f0b;
+  }
+.about-content .man {
+    display: inline-block;
+    margin-right: 25px;
+    border-right: 3px solid #fa5f0b;
+    padding-right: 25px;
+}
+.row2{
+    margin-left: 10px;
+    margin-top: -15px;
+}
+.about-img img{
+    max-width: 90%;
+    border: 5px solid  #fa5f0b;
+}
+.row2 .about-year {
+    font-size: 50px;
+    color: #02111e;
+    font-weight: 700;
+    background-color: #ffffff;
+    position: absolute;
+    border-left: 5px solid #02111e;
+    padding: 35px 60px;
+    margin-top: -11%;
+}
+    

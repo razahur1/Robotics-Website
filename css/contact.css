@@ -1,0 +1,141 @@
+
+/* ______________Page title_______________ */
+
+.page-title {
+    background-image: url(../images/page-title.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 460px;
+    background-attachment: fixed;
+}
+.title-item{
+    text-align: center;
+    position: relative;        
+    margin-top: 15%;
+}
+.title-item h2 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.title-item ul{
+    margin: 0px;
+    padding: 0px;
+}
+.title-item ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.title-item ul li a {
+    display: inline-block;
+    color: #ffffff;
+}
+.title-item a:hover{
+    color: #fa5f0b;
+}
+.title-item ul li span {
+    display: inline-block;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+/* ____________Contact__________________ */
+
+.contact-area{
+    padding: 100px 0px 70px 0px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-item {
+    margin-bottom: 30px;
+    max-width: 45%;
+}
+.contact-left h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.contact-left p {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.contact-left ul {
+    margin: 0;
+    padding: 0;
+}
+.contact-left ul li {
+    list-style-type: none;
+    display: block;
+    color: #282828;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dddddd69;
+    padding-bottom: 20px;
+}
+.contact-left ul li i {
+    font-size: 21px;
+    color: #282828;
+    margin-right: 5px;
+    position: relative;
+    bottom: -5px;
+}
+.contact-left ul li a {
+    display: inline-block;
+    color: #282828;
+}
+.contact-left ul li a:hover {
+    color: #fa5f0b;
+}
+.contact-right{
+    margin-left: 70px;
+}
+.contact-right h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.contact-right .form-group {
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+.form-group textarea {
+    width: 530px !important;   
+    height: auto !important;
+    padding-top: 15px;
+}
+.form-group .form-control {
+    border: 1px solid #fa5f0b;
+    height: 50px;
+    padding-left: 25px;
+    font-size: 14px;
+}
+.contact-btn {
+    background-color: #fa5f0b;
+    color: #ffffff;
+    width: 100%;
+    padding: 12px 0;
+    font-weight: 600;
+    border: none;
+}
+.contact-btn:hover {
+    background-color: #282828;
+}
+
+/* ____________Map_______________ */
+
+.map-area #map {
+    width: 100%;
+    height: 450px;
+    display: block;
+    border: 0;
+}
+
